@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { FunctionComponent } from "react";
 
-const Hero = () => {
+const Hero: FunctionComponent = () => {
   return (
     <div className='flex items-center justify-between py-10 bg-yellow-400 border-black lg:py-0 border-y'>
       <div className='px-10 space-y-5'>

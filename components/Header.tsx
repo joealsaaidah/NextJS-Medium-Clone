@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FunctionComponent } from "react";
 
-const Header = () => {
+const Header: FunctionComponent = () => {
   return (
     <header className='flex justify-between p-5 mx-auto max-w-7xl'>
       <div className='flex items-center space-x-5'>
